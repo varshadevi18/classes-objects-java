@@ -15,8 +15,8 @@ class Computer{
         return n1+n2;
     }
     //we have also define for diff datatype
-    public double add(int a, double b){
-        return a+b;
+    public double add(int n1, double n2){
+        return n1+n2;
     }
     //double+int= double(so return type shld be double)
 
