@@ -1,3 +1,5 @@
+import tools.Bp;
+
 class A{
     // public void show(){
     //     System.out.println("in A");
@@ -21,7 +23,7 @@ class B extends A{
 }
 public class Overriding{
     public static void main(String[] args) {
-        B obj= new B();
+        Bp obj= new Bp();
         int ans=obj.add(5,5);
         System.out.println(ans);
 
