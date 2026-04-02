@@ -1,4 +1,4 @@
-class Ui{
+Aclass Ui{
     public void show1(){
         System.out.println("in A");
     }
